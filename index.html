@@ -16,7 +16,9 @@
 
    <h1>Blog Post From Scratch</h1>
 
-   <p>This is the first paragraph.</p>
+   <p id="dynamic_text01">You haven't read this post yet.</p>
+
+   <p id="dynamic_text02"></p>
 
    <p>This is the second paragraph.</p>
     
@@ -106,6 +108,11 @@
 
    <!-- In the paragraph above, I wanted to see if the .tab class would work as I expected, which was that it would resizing the indent constantly to 10% as I changed the window size. so, I renamed the .tab class to .tab_dynamic and created a new .tab_static, where .tab_static is measured in pixels. I found the number of pixels that matched 10% of my window size exactly when in fullscreen on my current computer. Now, you won't know that this paragraph has a hard-coded indent unless you look at this on a different screen size-->
 
+   <button type="button" onclick="myFunction()">Mark this post as read</button>
+   
+   <script src=\script.js"></script>
+
+   </br></br></br></br>
 
   </body>
 </html>
